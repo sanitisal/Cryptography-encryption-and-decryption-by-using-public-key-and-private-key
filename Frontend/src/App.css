@@ -1,0 +1,17 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.max-w-lg {
+    max-width: 32rem; /* 512px */
+  }
+  .bg-gray-300 {
+    background-color: #d1d5db; /* Tailwind gray-300 */
+  }
+  .border-green-500 {
+    border-color: #22c55e !important; /* Tailwind green-500 */
+  }
+  .chatbox {
+    max-height: 500px; /* Adjust based on your need */
+    overflow-y: auto; /* Enables scrolling */
+    display: flex;
+    flex-direction: column-reverse; /* New messages appear at the bottom */
+  }
